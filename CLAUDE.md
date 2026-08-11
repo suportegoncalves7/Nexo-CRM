@@ -11,11 +11,20 @@ em um servidor local.
 ```
 index.html          Página inteira (todas as seções)
 style.css           Todo o CSS, incluindo @font-face e design tokens em :root
-script.js           Menu mobile, dropdown "Serviços", animação de reveal no scroll
+script.js           Menu mobile, dropdown "Serviços"
+animations.js       GSAP: entrada do hero, contadores e barras do dashboard,
+                    reveal com stagger ao rolar (ScrollTrigger)
 assets/fonts/       Montserrat 700/800, Work Sans 400/500/600 (woff2 locais)
 assets/img/logo.png Logo NexoCRM
+assets/js/          GSAP e ScrollTrigger, baixados localmente (sem CDN)
 .claude/launch.json Config do servidor local de preview
 ```
+
+GSAP é carregado como arquivo local em `assets/js/`, igual às fontes: sem CDN,
+sem npm, sem build step. A classe `.reveal` no HTML marca o estado inicial
+oculto via CSS (evita flash antes do JS carregar); `animations.js` anima até
+o estado visível. Se o GSAP falhar ao carregar ou o usuário preferir menos
+movimento (`prefers-reduced-motion`), o conteúdo aparece direto, sem animação.
 
 Seções do `index.html`, na ordem: header, hero, `#abordagem`, `#metodologia`,
 manifesto, `#diferenciais`, `#depoimentos`, `#contato`, footer.
