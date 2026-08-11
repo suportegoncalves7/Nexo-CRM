@@ -345,7 +345,7 @@ section.hero { padding: clamp(56px, 8vw, 108px) 0 clamp(48px, 6vw, 80px); }
   margin-bottom: 14px;
 }
 .dashboard-chart-head .chart-title { font-size: 0.72rem; color: var(--text-muted); font-weight: 500; }
-.dashboard-chart-head .chart-title strong { display: block; font-family: 'Montserrat'; font-size: 0.98rem; color: var(--navy); font-weight: 700; margin-top: 2px; }
+.dashboard-chart-head .chart-title-sep { color: var(--gold); font-weight: 700; }
 .chart-trend {
   display: inline-flex;
   align-items: center;
