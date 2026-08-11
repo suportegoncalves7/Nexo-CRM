@@ -1,4 +1,4 @@
-# NexoCRM — Landing Page
+# NexoCRM, Landing Page
 
 Landing page institucional de página única da Nexo CRM, consultoria de performance
 (CRM + Mídia Paga + Email Marketing).
@@ -35,7 +35,8 @@ Estas vieram de um briefing formal e valem para qualquer texto novo:
 
 1. **Nunca usar travessão (—) em nenhum texto do site.** Para separar ideias na
    mesma frase, usar vírgula, dois pontos ou ponto final. Esta é a regra mais
-   fácil de violar sem perceber ao escrever copy nova.
+   fácil de violar sem perceber ao escrever copy nova. Vale inclusive para os
+   arquivos de documentação deste repositório, para não induzir ao erro.
 2. **Nunca usar o símbolo de estrela (★).**
 3. **Teal (`--teal`, #0f766e) é só acento:** logo, ícones pequenos, detalhes.
    Nunca como fundo de seção nem em botão grande.
@@ -60,7 +61,7 @@ Na seção `#abordagem`, cada card tem cor própria via `--pillar-accent`:
 
 ## Mockup do dashboard
 
-O painel no hero **não é imagem** — é HTML/CSS (`.dashboard-card`). A versão
+O painel no hero **não é imagem**, é HTML/CSS (`.dashboard-card`). A versão
 original era um PNG com os números chapados, o que impedia editá-los. Foi
 reconstruído para que todas as métricas sejam texto editável:
 

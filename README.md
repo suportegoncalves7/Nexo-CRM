@@ -1,4 +1,4 @@
-# NexoCRM — Landing Page
+# NexoCRM, Landing Page
 
 Landing page institucional da Nexo CRM, consultoria de performance
 (CRM + Mídia Paga + Email Marketing).
