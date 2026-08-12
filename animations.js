@@ -79,7 +79,6 @@
   revealGroup('.pillar-card');
   revealGroup('.process-step');
   revealGroup('.benefit-card');
-  revealGroup('.testi-card');
   revealGroup('.manifesto blockquote');
   revealGroup('#contato .final-cta');
 

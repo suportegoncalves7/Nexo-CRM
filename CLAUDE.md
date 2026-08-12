@@ -27,7 +27,11 @@ o estado visível. Se o GSAP falhar ao carregar ou o usuário preferir menos
 movimento (`prefers-reduced-motion`), o conteúdo aparece direto, sem animação.
 
 Seções do `index.html`, na ordem: header, hero, `#abordagem`, `#metodologia`,
-manifesto, `#diferenciais`, `#depoimentos`, `#contato`, footer.
+manifesto, `#diferenciais`, `#contato`, footer.
+
+A seção de depoimentos foi removida a pedido do cliente (só existiam
+placeholders, nunca chegaram depoimentos reais). Se ela voltar no futuro,
+usar depoimentos reais desde o início, sem placeholder.
 
 ## Como rodar
 
@@ -81,9 +85,6 @@ São dados ilustrativos, e a legenda abaixo do hero diz isso explicitamente.
 
 ## Pendências antes de publicar
 
-- [ ] Depoimentos são **placeholders**, não são de clientes reais. Os três cards
-      em `#depoimentos` têm etiqueta indicando a frente (CRM, Mídia Paga, Email
-      Marketing). Substituir por depoimentos reais e remover a `.testi-note`.
 - [ ] Links de WhatsApp estão como `https://wa.me/` sem número.
 - [ ] Links de redes sociais no footer estão como `#`.
 - [ ] Política de privacidade e Termos de uso apontam para `#`.

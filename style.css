@@ -60,8 +60,6 @@
 
   --line: #dde3e0;
   --shadow-rgb: 8, 28, 34;
-  --placeholder-bg: #f6f8f7;
-  --placeholder-border: #c7d1cd;
   color-scheme: light;
 }
 
@@ -259,6 +257,7 @@ section.hero { padding: clamp(56px, 8vw, 108px) 0 clamp(48px, 6vw, 80px); }
   line-height: 1.6;
 }
 .cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.cta-row .btn { white-space: normal; text-align: left; }
 
 .hero-visual { position: relative; margin-bottom: 48px; }
 .visual-caption {
@@ -551,44 +550,6 @@ section[id], .pillar-card[id] { scroll-margin-top: 90px; }
 .benefit-card h3 { font-size: 1.15rem; font-weight: 700; }
 .benefit-card p { color: var(--text-muted); font-size: 0.95rem; }
 
-/* ---------- Testimonials (placeholder, honest) ---------- */
-.testi-note {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-top: -4px;
-}
-.testi-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-}
-.testi-card {
-  border: 1.5px dashed var(--placeholder-border);
-  background: var(--placeholder-bg);
-  border-radius: 18px;
-  padding: 28px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.testi-card .icon { width: 26px; height: 26px; color: var(--text-muted); opacity: 0.6; }
-.testi-card p.quote { color: var(--text-muted); font-size: 1rem; line-height: 1.6; }
-.testi-who { display: flex; flex-direction: column; gap: 2px; }
-.testi-who strong { font-size: 0.9rem; color: var(--text-body); font-weight: 600; }
-.testi-who span { font-size: 0.8rem; color: var(--text-muted); }
-.testi-tag {
-  align-self: flex-start;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--navy);
-  background: var(--bg-alt);
-  border-radius: 999px;
-  padding: 4px 10px;
-}
-
 /* ---------- Final CTA ---------- */
 .final-cta {
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
@@ -670,7 +631,6 @@ footer.site {
   .hero-visual { order: -1; }
   .pillar-grid { grid-template-columns: 1fr; }
   .benefit-grid { grid-template-columns: 1fr; }
-  .testi-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; row-gap: 32px; }
   .dashboard-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .floating-chip { left: 0; }

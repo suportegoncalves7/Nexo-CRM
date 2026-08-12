@@ -40,5 +40,5 @@ Detalhes completos e demais convenções em [CLAUDE.md](CLAUDE.md).
 
 ## Antes de publicar
 
-Depoimentos, links de WhatsApp e redes sociais, CNPJ e páginas legais ainda
-são placeholders. A lista completa está em [CLAUDE.md](CLAUDE.md).
+Links de WhatsApp e redes sociais, CNPJ e páginas legais ainda são
+placeholders. A lista completa está em [CLAUDE.md](CLAUDE.md).
